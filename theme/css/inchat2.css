@@ -1,0 +1,131 @@
+
+
+/* https://www.bootdey.com/snippets/view/Green-chat-room#js */
+/* https://www.bootdey.com/snippets/view/Clean-chat-box */
+
+  
+  .chatt-box {
+      height: 100%;
+      width: 100%;
+      background-color: #fff;
+      overflow: hidden
+  }
+  
+  .chatts {
+      padding: 30px 15px
+  }
+  
+  .chatt-avatar {
+      float: right
+  }
+  
+  .chatt-avatar .avatar {
+      width: 30px
+  }
+  
+  .chatt-body {
+      display: block;
+      margin: 10px 30px 0 0;
+      overflow: hidden
+  }
+  
+  .chatt-body:first-child {
+      margin-top: 0
+  }
+  
+  .chatt-content {
+      position: relative;
+      display: block;
+      float: right;
+      padding: 8px 15px;
+      margin: 0 10px 10px 0;
+      clear: both;
+      color: #fff;
+      background-color: #62a8ea;
+      border-radius: 4px;
+          -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+      box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+  }
+  
+  .chatt-content:before {
+      position: absolute;
+      top: 10px;
+      right: -10px;
+      width: 0;
+      height: 0;
+      content: '';
+      border: 5px solid transparent;
+      border-left-color: #62a8ea
+  }
+  
+  .chatt-content>p:last-child {
+      margin-bottom: 0
+  }
+  
+  .chatt-content+.chatt-content:before {
+      border-color: transparent
+  }
+  
+  .chatt-time {
+      display: block;
+      margin-top: 8px;
+      color: rgba(255, 255, 255, .6);
+  }
+  
+  .chatt-left .chatt-avatar {
+      float: left
+  }
+  
+  .chatt-left .chatt-body {
+      margin-right: 0;
+      margin-left: 30px
+  }
+  
+  .chatt-left .chatt-content {
+      float: left;
+      margin: 0 0 10px 10px;
+      color: #2f3030;
+      background-color: #ffffff
+  }
+  
+  .chatt-left .chatt-content:before {
+      right: auto;
+      left: -10px;
+      border-right-color: #ffffff;
+      border-left-color: transparent
+  }
+  
+  .chatt-left .chatt-content+.chatt-content:before {
+      border-color: transparent
+  }
+  
+  .chatt-left .chatt-time {
+      color: #a3afb7
+  }
+  
+  .panel-footer {
+      padding: 0 30px 15px;
+      background-color: transparent;
+      border-top: 1px solid transparent;
+      border-bottom-right-radius: 3px;
+      border-bottom-left-radius: 3px;
+  }
+  .avatarr img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      border: 0 none;
+      border-radius: 1000px;
+  }
+  .chat-avatarr .avatar {
+      width: 30px;
+  }
+  .avatarr {
+      position: relative;
+      display: inline-block;
+      width: 40px;
+      white-space: nowrap;
+      border-radius: 1000px;
+      vertical-align: bottom;
+  }
+                                      
